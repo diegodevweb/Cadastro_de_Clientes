@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <title>Cadastro de Clientes</title>
+</head>
+<nav>
+    <p>Cadastro de Clientes</p>
+    <picture>
+        <img class="logop" src="img/IMG-20210211-WA0059.jpg" alt="">
+    </picture>
+</nav>
+<body>
+    <section id="box1">
+        <div id="selecao"><a href="index.html">Home</a></div>
+        <div id="selecao"><a href="contatos.html">Todos os Contatos</a></div>
+        <div id="selecao"><a href="contatos.html">Editar Contato</a></div>
+        <div id="selecao"><a href="contatos.html">Incluir Contato</a></div>
+        <div id="selecao"><a href="contatos.html">Apagar Contato</a></div>
+    </section>
+    <section id="cadastro">
+        <form>
+            <fieldset id="dados"><legend>Dados do Usuário</legend>
+               <p><label for="cNome">Nome</label></p><input type="text" name="tNome" id="cNome" placeholder="Nome" size="20" maxlength="20">
+               <p><label for="cSobre">Sobrenome</label></p><input type="text" name="tSobre" id="cSobre" placeholder="Sobrenome" size="20" maxlength="20">
+               <p><label for="cNum">CPF</label></p><input type="text" name="tNum" id="cNum" placeholder="000.000.000-00" onkeypress="$(this).mask('000.000.000-00');">
+               <p><label for="cMail">E-mail</label></p><input type="email" name="tMail" id="cMail" placeholder="E-mail" size="40" maxlength="40">
+               <p><label for="cTel">Telefone</label></p><input type="text" name="tTel" id="cTel" placeholder="Telefone" size="25" maxlength="25">
+            </fieldset>
+        </form>
+    </section>
+</body>
+<footer>Desenvolvido por Diego©</footer>
+</html>

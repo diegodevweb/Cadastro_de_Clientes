@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<nav>
+    Cadastro de Clientes
+</nav>
+<body>
+    <section id="box1">
+        <div id="selecao">Home</div>
+        <div id="selecao">Todos os Contatos</div>
+        <div id="selecao">Editar Contato</div>
+        <div id="selecao">Incluir Contato</div>
+        <div id="selecao">Apagar Contato</div>
+    </section>
+    <section id="cadastro">
+        <form>
+            <fieldset id="dados"><legend>Dados do Usuário</legend>
+               <p><label for="cNome">Nome</label></p><input type="text" name="tNome" id="cNome" placeholder="Nome">
+               <p><label for="cSobre">Sobrenome</label></p><input type="text" name="tSobre" id="cSobre" placeholder="Sobrenome">
+               <p><label for="cNum">CPF</label></p><input type="number" name="tNum" id="cNum" placeholder="CPF"  size="11" maxlength="11">
+               <p><label for="cMail">E-mail</label></p><input type="email" name="tMail" id="cMail" placeholder="E-mail">
+               <p><label for="cTel">Telefone</label></p><input type="text" name="tTel" id="cTel" placeholder="Telefone">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
