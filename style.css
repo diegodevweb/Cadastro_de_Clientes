@@ -25,7 +25,7 @@ nav{
     align-items: center;
     color: white;
     font-size: x-large;
-    box-shadow: 2px 2px 0.3px rgba(0,0,0,.3);
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
 }
 nav > p{
     margin: 0;
