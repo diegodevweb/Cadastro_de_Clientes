@@ -1,2 +1,2 @@
 # Cadastro de Clientes
- CRUD 
+ CRUD - Ainda está em andamento. 
